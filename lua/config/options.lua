@@ -1,5 +1,6 @@
 vim.opt.number = true
 vim.opt.relativenumber = true
+vim.opt.termguicolors = true
 
 -- https://neovim.io/doc/user/autocmd.html --
 -- Autocommands are used to trigger actions based on events in Neovim.
