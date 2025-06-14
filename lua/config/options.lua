@@ -10,7 +10,7 @@ autocmd("LspAttach", {
     group = vim.api.nvim_create_augroup('lsp-attach', {
         clear = true
     }),
-    callback = function(event)
+    callback = function()
         vim.diagnostic.config({
             virtual_lines = {
                 current_line = true
